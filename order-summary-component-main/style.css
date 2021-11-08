@@ -51,6 +51,7 @@ h2{
     font-weight: 900;
 }
 button{
+    display: inline-block;
     margin: 20px 40px 10px 70px;
     padding: 15px 30px;
     background-color:hsl(245, 75%, 52%);
@@ -140,4 +141,12 @@ button:hover{
 /* media queries for different kind of screens
 This shows how the content appears on different devices */
 
-
+@media screen and (min-width:375px){
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 30%;
+        padding-bottom: 5px;
+      }
+    }
