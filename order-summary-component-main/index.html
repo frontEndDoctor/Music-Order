@@ -10,12 +10,11 @@
   
   <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <!-- <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> -->
 </head>
+<!-- The first step is to create an over all container that will house the entire UI -->
+<!-- Next, each content is split into tiny blocks following the atomic system -->
+<!-- This tiny blocks are group inside the nearest divs which is later housed by the over all div  called "container: in this case" -->
+<!-- Do not forget to Keep It Simple and Stupid=>KISS -->
 <body>
     <div class="container">
       <div class="card">
@@ -37,16 +36,16 @@
               </div>
               <a  class= "change" href="#">Change</a>
           </div> 
+          <!-- To make payment, you have to click this button, although you can decide 
+          to wrap it in a div instead ofstanding alone like this -->
           <button>Proceed to Payment</button>
+
           <div class="third">
                <a class= "btn" href="#">Cancel Order</a>
           </div>
         </div>
     </div>
     
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">frontEndDoctor</a>.
-  </div> -->
+  
 </body>
 </html>
