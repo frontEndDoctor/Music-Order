@@ -1,0 +1,143 @@
+/* In this stylesheet, the pseudo code is first used to style the before and after UI */
+*,
+*::before,
+*::after{
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* The color codes to be used are also specified  */
+
+/* :root{    
+-- Very pale blue: hsl(225, 100%, 98%)
+-- Desaturated blue: hsl(224, 23%, 55%)
+-- Dark blue: hsl(223, 47%, 23%)
+-- Pale blue: hsl(225, 100%, 94%)
+-- Bright blue: hsl(245, 75%, 52%)
+}  */
+
+/* To style the entire UI */
+
+body{
+    display: flex;
+    min-height: 100%;
+    background: url("images/pattern-background-desktop.png") hsl(225, 100%, 94%)  repeat-x;   
+    font-family: "Red Hat Display";
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* styling of individual elements */
+img{
+    max-width: 100%;
+    display: block;
+    border-radius: 15px 15px 0 0;
+}
+
+p{
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+a{
+    text-align: right;
+    text-decoration: none;
+}
+h3{
+    font-weight: 700;
+}
+h2{
+    font-weight: 900;
+}
+button{
+    margin: 20px 40px 10px 70px;
+    padding: 15px 30px;
+    background-color:hsl(245, 75%, 52%);
+    color: whitesmoke;
+    font-weight: 900;
+    border-radius: 10px;
+    font-size: 14px;
+    border:none;
+    box-shadow: 0px 22px 20px hsl(225, 100%, 94%);
+    align-self: center;
+    
+}
+
+/* styling of each div using their respectives classes */
+
+.container{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
+}
+.card {
+    background-color:white;
+    border-radius: 15px;
+    padding-bottom: 15px;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+}
+
+.first{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+} 
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+} 
+.top{
+    max-width: 100%;
+    display: inline-flexbox;
+    border-radius: 15px 15px 0 0;
+}
+
+.btn{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 700;
+    padding:  5px;
+    color: hsl(224, 23%, 55%);
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding: 25px 0 40px 0;
+}
+
+.second{
+    border-radius: 5px;
+    background-color: hsl(225, 100%, 98%);
+    margin: 15px;
+}
+.rate{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px ;
+}
+.change{
+    padding-left: 30px;
+    font-weight: 700;
+}
+
+/* styling the state(:hover) of some links */
+
+button:hover{
+    color: hsl(225, 100%, 94%);
+    background-color: hsl(224, 39%, 50%);
+}
+
+.btn:hover{
+ color: rgb(5, 6, 10);
+}
+.change a:hover{
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+/* media queries for different kind of screens
+This shows how the content appears on different devices */
+
+
