@@ -70,6 +70,7 @@ button{
 .container{
     padding-bottom: 5px;
     padding-top: 5px;
+    margin: 20px;
     
 }
 .card {
@@ -140,7 +141,7 @@ button:hover{
 
 /* media queries for different kind of screens
 This shows how the content appears on different devices */
-
+/* 
 @media screen and (min-width:375px){
     .card {
         display: flex;
@@ -149,4 +150,4 @@ This shows how the content appears on different devices */
         width: 30%;
         padding-bottom: 5px;
       }
-    }
+    } */
